@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+html, body { height: 100%; }
+
+body { margin: 0;
+   font-family: "Roboto-Mono", monospace !important;
+   background: var(--bg-color);
+  color: var(--text-color);
+  }
+/* Light Theme */
+
+.light-theme{
+  --search-background:#E0FFFF;       /* Light Sky Blue */
+  --bg-color: #E0FFFF;       /* Light Sky Blue */
+  --text-color: #333333;     /* Dark Gray */
+  --icon-color: #FFD700;     /* Sunflower Yellow */
+  --card-background: #F5F5F5; /* Light Gray */
+  --card-color: #333333;     /* Dark Gray for card text */
+  --header-background: #87CEEB; /* Light Sky Blue for header */
+  --header-color: #333333;   /* Dark Gray for header text */
+  --button-color: rgb(0, 174, 255);
+}
+  
+  /* Dark Theme */
+  .dark-theme{
+  --search-background:#2727b0; /*Persian Blue*/
+  --bg-color: #191970;       /* Midnight Blue */
+  --text-color: #CCCCCC;     /* Light Gray */
+  --icon-color: #FFFF00;     /* Electric Yellow */
+  --card-background: #333333; /* Dark Charcoal */
+  --card-color: #CCCCCC;     /* Light Gray for card text */
+  --header-background: #2F4F4F; /* Dark Slate Gray for header */
+  --header-color: #CCCCCC;   /* Light Gray for header text */
+  --button-color:#2b5757;
+  }
+.mat-card, .mat-card-content{
+  font-family: 'Roboto-Mono', monospace !important;
+}
